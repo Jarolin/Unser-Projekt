@@ -1,4 +1,4 @@
-# Rabio 
+# Rabbio 
 
 von Janina Gräfnitz und Csrolin Oelschlägel, Klasse 12ab
 
@@ -6,9 +6,11 @@ von Janina Gräfnitz und Csrolin Oelschlägel, Klasse 12ab
 
 Unser Projekt ist ein Spiel namens "Rabbio" und wurde programmiert mit "MIT App Inventor". Das Grundprinzip dieses Spiels ist es, mit einem Hasen vertikal durch verschieden schnelle Kugeln hindurch zu steuern, um eine Möhre am oberenn Bildschirmrand zu erreichen. Sobald der Hase die Möhre berührt, erscheint je nach Level eine unterschiedlich schwere Frage zum Fachbereich Biologie. Nur wenn man die Frage richtig beantwortet, gelangt man zum nächsten Level, bis man letztendlich alle drei Level durchgespielt hat und man damit gewonnen hat.
 
+
+
 ## Die Intention des Spiels
 
-Mit dem Spiel "Rabio" sollen Spaß beim Spielen und das Erweitern des Wissens in dem Fach Biologie miteinender vereint werden. Das Spiel soll somit zum Lernen motivieren. Da doieses evrbunden mit dem Spiel ist, erscheint es für den Spieler als eine positive Erfahrung. Kognitive und giestige Fähigkeiten des Spielers werden miteinander vereint.
+Mit dem Spiel "Rabbio" sollen Spaß beim Spielen und das Erweitern des Wissens in dem Fach Biologie miteinender vereint werden. Das Spiel soll somit zum Lernen motivieren. Da doieses evrbunden mit dem Spiel ist, erscheint es für den Spieler als eine positive Erfahrung. Kognitive und giestige Fähigkeiten des Spielers werden miteinander vereint.
 Der Name "Rabio" setzt sich aus den englischen Wörtern "rabbit" und "biology" zusammen. 
 
 ## Das Spiel selber programmieren
