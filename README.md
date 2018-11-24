@@ -2,7 +2,7 @@
 
 von Janina Gräfnitz und Csrolin Oelschlägel, Klasse 12ab
 
-/Bildschirmfoto 2018-11-24 um 13.16.24.png
+![bsp stage(1)](Bilder/Stage(1).png)
 
 ## Projektvorstellung
 
