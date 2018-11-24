@@ -2,6 +2,8 @@
 
 von Janina Gräfnitz und Csrolin Oelschlägel, Klasse 12ab
 
+/Bildschirmfoto 2018-11-24 um 13.16.24.png
+
 ## Projektvorstellung
 
 Unser Projekt ist ein Spiel namens "Rabbio" und wurde programmiert mit "MIT App Inventor". Das Grundprinzip dieses Spiels ist es, mit einem Hasen vertikal durch verschieden schnelle Kugeln hindurch zu steuern, um eine Möhre am oberenn Bildschirmrand zu erreichen. Sobald der Hase die Möhre berührt, erscheint je nach Level eine unterschiedlich schwere Frage zum Fachbereich Biologie. Nur wenn man die Frage richtig beantwortet, gelangt man zum nächsten Level, bis man letztendlich alle drei Level durchgespielt hat und man damit gewonnen hat.
