@@ -2,7 +2,7 @@
 
 von Janina Gräfnitz und Csrolin Oelschlägel, Klasse 12ab
 
-![bsp stage(1)](Bilder/Stage(1).png)
+
 
 ## Projektvorstellung
 
@@ -38,4 +38,15 @@ Diese kan man beliebig miteinender kombinieren und bei einigen Blogs selber best
 Man kann verschiede Screens miteinander vernüpfen, die Fortbewegung der Sprites programmieren, dei Bälle programmieren und entschieden, was bei dem Berühren bestimmte anderer Sprites oder dem Klicken verschiedener Buttons passiert. 
 
 ### Erste Schritte
+
+Zunächst muss man ein neues Projekt auf MIT App Inventor erstellen.
+Man sollte sich bestenfalls bereits vorher ein Konzept gemacht haben, wie das Spiel aufgebaut sein soll.
+Dann beginnt man mit dem ersten Screen, dieser wird erstellt. Da man die Screens im Nachhinein nicht umbennen kann, empfiehlt sich direkt verständliche Namen zu verwenden, die das Arbeiten später erleichtern. 
+Screens 1, welcher direkt zu Beginn erstellt wird, ist immer der Startscren des Spiels, er öffnet sich direkt, wenn man die App auf dem Smartphone startet. 
+
+Deshalb empfiehlt sich für Screen 1 ein Label mit dem Spielnamen zu erstellen (hier: Rabbio), außerdem einen passenden Hintergrund zu wählen (hier: die Spielfarbe grün), eine kurze Spielanleitung einzufügen und gegebenenfalls ein ansprechendes Bild (hier: von der Spielfigur, dem Hasen).
+Des Weiteren musss ein Button per Drag and Drop eingefügt werden, der später zum Starten des Spiels dienen soll. 
+Dies alles geschieht in der Ebene "Design Editor".
+Anschließend wechselt man in den "Blog Editor" 
+
 
