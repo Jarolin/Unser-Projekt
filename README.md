@@ -33,4 +33,5 @@ In dem Blog Editor kann men per Drag and Drop verschiede Blogs auf eine Fläche 
 Diese kan man beliebig miteinender kombinieren und bei einigen Blogs selber bestimmte Dinge dazutragen. 
 Man kann verschiede Screens miteinander vernüpfen, die Fortbewegung der Sprites programmieren, dei Bälle programmieren und entschieden, was bei dem Berühren bestimmte anderer Sprites oder dem Klicken verschiedener Buttons passiert. 
 
+### Erste Schritte
 
