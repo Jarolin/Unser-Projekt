@@ -47,6 +47,14 @@ Screens 1, welcher direkt zu Beginn erstellt wird, ist immer der Startscren des 
 Deshalb empfiehlt sich für Screen 1 ein Label mit dem Spielnamen zu erstellen (hier: Rabbio), außerdem einen passenden Hintergrund zu wählen (hier: die Spielfarbe grün), eine kurze Spielanleitung einzufügen und gegebenenfalls ein ansprechendes Bild (hier: von der Spielfigur, dem Hasen).
 Des Weiteren musss ein Button per Drag and Drop eingefügt werden, der später zum Starten des Spiels dienen soll. 
 Dies alles geschieht in der Ebene "Design Editor".
+
 Anschließend wechselt man in den "Blog Editor" 
+Dort werden die entsperchenden Blogs eingefügt, dass sich beim Klicken des Button ein neuer Screen öffnet (das Hasen-Spiel).
+
+### Das Hasen-Spiel
+
+Bei dem Hasenspiel-Screen muss ebenfalls zunächst der Bildschirm designt werden. 
+Wichtig ist, dass man einen sogenannten "Canvas" in den Hintergrund ziehen muss. Er füllt diesen komplett aus, nur auf dem Canvas können sich hinterhger Bälle und Sprites bewegen. 
+
 
 
