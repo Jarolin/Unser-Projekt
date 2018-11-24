@@ -13,13 +13,24 @@ Der Name "Rabio" setzt sich aus den englischen Wörtern "rabbit" und "biology" z
 
 ## Das Spiel selber programmieren
 
+### MIT App Inventor
+
 Um das Spiel Rbio selber zu programmieren, sollte man sich zunächst mit dem Programm "MIT App Inventor" vertraut machen.
 MIT App Inventor ist ein seit 2010 veröffentliches Programm zum Programmieren in Blocksprache. 
 Mit dem Programm kann man Apps für Smartphones und Tablets programmierern, welche mit Android Betriebssystem laufen. Für den Beginn des Jahren 2019 ist geplant, dass die mit MIT App INventor programmierten Apps auch mit dem Apple Betriebssystem iOS funktionierern.
 MIT App Inventor ist online frei zugänglich, vor der ersten Anwendung muss man sich mit seinem Google Konto registrieren.
 Danach kann man begonnene Prokjekte online speichern, sodass man jederzeit darauf zugreifen kann und diese weiterbearbeiten kann.
+Das Programm funktioniert auf Englisch. 
 
 MIT App Inventor teilt sich in zwei Ebenen auf, den Design Editor und den Blog Editor. 
-In dem Design Editor kann man Hintergründe und Sprites erstellen. Dazu kann man Bilder von seinem eigenen Computer oder aus dem Internet in das Prokekt hochladen. Besonders an MIT App Inventor ist, dass man mehrere verschiedene Screens designen kann. Dies eignet sich gerade für Spiele wie Rabio sehr gut, da dieses aus verschiedenen Teilen (dem Hasenspiel und dem Quizteil) besteht, wofür ein komplett verschiedenes Design des Bildschirms nötig ist. 
+
+In dem Design Editor kann man Hintergründe und Sprites erstellen. 
+Dazu kann man Bilder von seinem eigenen Computer oder aus dem Internet in das Prokekt hochladen. Besonders an MIT App Inventor ist, dass man mehrere verschiedene Screens designen kann. Dies eignet sich gerade für Spiele wie Rabio sehr gut, da dieses aus verschiedenen Teilen (dem Hasenspiel und dem Quizteil) besteht, wofür ein komplett verschiedenes Design des Bildschirms nötig ist. 
 In die verschieden Screens kann man im Design Editor verschiedene Buttons und Labels mit Text hinzufügen.
 Des Weiteren kann man im Design Editor Bälle erstellen, diese kommen auch in dem Spiel Rabio vor.
+
+In dem Blog Editor kann men per Drag and Drop verschiede Blogs auf eine Fläche ziehen. 
+Diese kan man beliebig miteinender kombinieren und bei einigen Blogs selber bestimmte Dinge dazutragen. 
+Man kann verschiede Screens miteinander vernüpfen, die Fortbewegung der Sprites programmieren, dei Bälle programmieren und entschieden, was bei dem Berühren bestimmte anderer Sprites oder dem Klicken verschiedener Buttons passiert. 
+
+
