@@ -62,14 +62,17 @@ Dies alles geschieht in der Ebene "Design Editor".
 
 
 Anschließend wechselt man in den "Block Editor" 
-Dort werden die entsprechenden Blocks eingefügt, sodass sich beim Klicken des Button ein neuer Screen öffnet (das das erste Level des Hasenspiels).
+Dort werden die entsprechenden Blocks eingefügt, sodass sich beim Klicken des Start-Buttons ein neuer Screen öffnet (das das erste Level des Hasenspiels). Tippt der Spieler mit dem Finger auf den Button "Spiel beenden", schließt sich die App. 
 
  ![bsp screenshot2](Bilder.exe/Screenshot2.png)
+ 
+ 
 
 ### Das Hasen-Spiel
 
 Bei dem Hasenspiel-Screen muss ebenfalls zunächst der Bildschirm designt werden. 
-Wichtig ist, dass man einen sogenannten "Canvas" in den Hintergrund ziehen muss. Er füllt diesen komplett aus, nur auf dem Canvas können sich hinterher Bälle und ImageSprites bewegen. 
+Wichtig ist, dass man einen sogenannten "Canvas" in den Hintergrund ziehen muss. Er füllt diesen komplett aus, nur auf dem Canvas können sich hinterher Bälle und ImageSprites bewegen. In der rechten Spalte können nun Farbe und Form des Canvas gestaltet werden. Um ein Bild als Hintergrund des Canvas zu haben, muss man ein Bild aus dem Internet oder aus den Dateien des Computers hochladen. Dann kann in der entsprechenden Zeile "BackgroundImage" das Bild gewählt werden.
 
+Danach werden alle Elemente, die beim Spiel auf diesem einen Screen vorhanden sein sollen, auf den Canvas gezogen. In unserem Fall sind das drei Bälle und zwei ImageSprites. Diese lassen sich in der linken Spalte unter "Drawing and Animation" finden. Sobald die Elemente auf dem Canvas bzw. dem Screen vorhanden sind, erscheinen diese gelistet in einer weiteren Spalte, die sich direkt rechts des Screens befindet. Klickt man dort auf zum Beispiel "ImageSprite1", kann man nun wieder in der Spalte ganz rechts die Einstellungen für dieses Element erledigen. Beim Erstellen der Möhre sucht man zuerst das Bild aus, dann die Größe und richtet dann die Position der Möhre aus, wo sie sich auf dem Screen befinden soll. Dazu kann man sie entweder zum gewünschten Ort hinziehen oder manuell die x-, y- und z-Werte dafür in der rechten Spalte eingeben. Nun kann man das gleiche mit dem zweiten ImageSprite machen und die drei Bälle programmieren. 
 
 
