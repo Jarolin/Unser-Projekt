@@ -4,11 +4,11 @@ von Janina Gräfnitz und Carolin Oelschlägel, Klasse 12a
 
 ## Inhaltsverzeichnis
 * [Projektvorstellung](#Projektvorstellung)
-  * [Die Intention des Spiel](#Idee)
+  * [Die Intention des Spiel]
 * [Das Spiel selber programmieren](#ai2)
-* [Aufbau](#Aufbau)
-  * [Oberfläche](#Oberfläche)
-  * [Blöcke](#Blöcke)
+  * [MIT App Inventor](#Aufbau)
+  * [Erste Schritte](#Oberfläche)
+  * [Das Hasen-Spiel](#Blöcke)
 
 ## Projektvorstellung
 
