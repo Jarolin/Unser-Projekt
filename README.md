@@ -14,7 +14,6 @@ von Janina Gräfnitz und Carolin Oelschlägel, Klasse 12a
 
 Unser Projekt ist ein Spiel namens "Rabbio" und wurde  mit "MIT App Inventor" programmiert. Das Grundprinzip dieses Spiels ist es, mit einem Hasen vertikal durch verschieden schnelle Kugeln hindurch zu steuern, um eine Möhre am oberen Bildschirmrand zu erreichen. Sobald der Hase die Möhre berührt, erscheint je nach Level eine unterschiedlich schwere Frage zum Fachbereich Biologie. Nur wenn man die Frage richtig beantwortet, gelangt man zum nächsten Level, bis man letztendlich alle drei Level durchgespielt hat und man damit gewonnen hat.
 
- ![bsp bildschirmfoto 2018-11-24 um 13.16.24](Bilder.exe/Bildschirmfoto 2018-11-24 um 13.16.24.png)
 
 ## Die Intention des Spiels
 
@@ -64,6 +63,8 @@ Dies alles geschieht in der Ebene "Design Editor".
 
 Anschließend wechselt man in den "Block Editor" 
 Dort werden die entsprechenden Blocks eingefügt, sodass sich beim Klicken des Button ein neuer Screen öffnet (das das erste Level des Hasenspiels).
+
+ ![bsp screenshot2](Bilder.exe/Screenshot2.png)
 
 ### Das Hasen-Spiel
 
