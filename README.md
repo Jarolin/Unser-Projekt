@@ -42,7 +42,7 @@ In dem Block Editor kann man per Drag and Drop verschiedene Blocks auf eine Flä
 Diese kann man beliebig miteinander kombinieren und bei einigen Blocks selber bestimmte Dinge dazutragen. 
 Man kann verschiede Screens miteinander verknüpfen, die Fortbewegung der ImageSprites und die Bälle programmieren und entscheiden, was bei dem Berühren bestimmter anderer ImageSprites oder dem Antippen verschiedener Buttons passiert. 
 
-### Erste Schritte
+### Erste Schritte <a name="ErsteSchritte"></a>
 
 Zunächst muss man ein neues Projekt auf MIT App Inventor erstellen.
 Man sollte sich bestenfalls bereits vorher ein Konzept gemacht haben, wie das Spiel aufgebaut sein soll.
@@ -68,7 +68,7 @@ Dort werden die entsprechenden Blocks eingefügt, sodass sich beim Klicken des S
  
  
 
-### Das Hasen-Spiel
+### Das Hasen-Spiel <a name="DasHasenSpiel"></a>
 
 Nun kann man durch klicken auf "Add Screen" den Screen für das erste Level erstellen. Bei dem Hasenspiel-Screen muss ebenfalls zunächst der Bildschirm designt werden. 
 Wichtig ist, dass man einen sogenannten "Canvas" in den Hintergrund ziehen muss. Er füllt diesen komplett aus, nur auf dem Canvas können sich hinterher Bälle und ImageSprites bewegen. In der rechten Spalte können nun Farbe und Form des Canvas gestaltet werden. Um ein Bild als Hintergrund des Canvas zu haben, muss man ein Bild aus dem Internet oder aus den Dateien des Computers hochladen. Dann kann in der entsprechenden Zeile "BackgroundImage" das Bild gewählt werden.
