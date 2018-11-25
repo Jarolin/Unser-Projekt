@@ -57,7 +57,7 @@ Dies alles geschieht in der Ebene "Design Editor".
 
 
 
- ![bsp screenshot1].(screenshot1.png)
+ ![bsp screenshot1].(Bilder.exe/screenshot1.png)
 
 
 
