@@ -4,7 +4,7 @@ von Janina Gräfnitz und Carolin Oelschlägel, Klasse 12a
 
 ## Inhaltsverzeichnis
 * [Projektvorstellung](#Projektvorstellung)
-  * [Die Intention des Spiels](#DieIntentiondesSpiels)
+  * [Die Intention des Spiels](#Dieintentiondesspiels)
 * [Das Spiel selber programmieren](#dssp)
   * [MIT App Inventor](#Aufbau)
   * [Erste Schritte](#ErsteSchritte)
