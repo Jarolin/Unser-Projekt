@@ -60,7 +60,7 @@ Dort werden die entsprechenden Blocks eingefügt, sodass sich beim Klicken des B
 ### Das Hasen-Spiel
 
 Bei dem Hasenspiel-Screen muss ebenfalls zunächst der Bildschirm designt werden. 
-Wichtig ist, dass man einen sogenannten "Canvas" in den Hintergrund ziehen muss. Er füllt diesen komplett aus, nur auf dem Canvas können sich hinterhger Bälle und Sprites bewegen. 
+Wichtig ist, dass man einen sogenannten "Canvas" in den Hintergrund ziehen muss. Er füllt diesen komplett aus, nur auf dem Canvas können sich hinterher Bälle und ImageSprites bewegen. 
 
 
 
