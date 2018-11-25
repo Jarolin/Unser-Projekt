@@ -78,7 +78,7 @@ Danach werden alle Elemente, die beim Spiel auf diesem einen Screen vorhanden se
 ![bsp screenshot3](Bilder.exe/Screenshot3.png)
 
 
-Der Block "When Level1 initialize" gibt an, was assieren soll, wenn dieser Screen gestartet wird. 
+Der Block "When Level1 initialize" gibt an, was passieren soll, wenn dieser Screen gestartet wird. 
 
 ![bsp screenshot4](Bilder.exe/Screenshot4.png)
 
