@@ -54,6 +54,14 @@ Deshalb empfiehlt sich für Screen 1 ein Label mit dem Spielnamen zu erstellen (
 Desweiteren musss ein Button per Drag and Drop eingefügt werden, der später zum Starten des Spiels dienen soll. 
 Dies alles geschieht in der Ebene "Design Editor".
 
+
+
+
+ ![bsp screenshot1].(screenshot1.png)
+
+
+
+
 Anschließend wechselt man in den "Block Editor" 
 Dort werden die entsprechenden Blocks eingefügt, sodass sich beim Klicken des Button ein neuer Screen öffnet (das das erste Level des Hasenspiels).
 
