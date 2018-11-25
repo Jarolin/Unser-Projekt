@@ -80,9 +80,22 @@ Danach werden alle Elemente, die beim Spiel auf diesem einen Screen vorhanden se
 
 Der Block "When Level1 initialize" gibt an, was passieren soll, wenn dieser Screen gestartet wird. Durch die darunter hinzugefügten Blocks bekommt der Hase eine Startgeschwindigkeit und eine Startposition. 
 
-Wird der Bildschirm (Canvas, siehe Block rechts unten) berührt, bekommt der Hase den Befehl, seine y-Position um 20 Einheiten vertikal nach oben zu verändern. Damit ist der Spieler also in der Lage, den Hasen durch die Kugeln zu steuern. Wenn der Hase mit der Möhre kollidiert (s. Block oben rechts), wird die App einen neuen Screen öffnen, auf dem die erste Frage, vom Schwierigkeitsgrad passend zum ersten Level, angezeigt wird. Berührt der Hase allerdings eine der Kugeln, wird der Screen mit dem Namen "VersuchsNochmal" geöffnet, auf dem die gleichen Worte stehen. Dort hat der Spieler dann durch verschiedene Buttons die Möglichkeit, entweder wieder von vorne zu starten oder zum Menü zurückzukehren
 
 ![bsp screenshot4](Bilder.exe/Screenshot4.png)
+
+
+Wird der Bildschirm (Canvas, siehe Block rechts unten) berührt, bekommt der Hase den Befehl, seine y-Position um 20 Einheiten vertikal nach oben zu verändern. Damit ist der Spieler also in der Lage, den Hasen durch die Kugeln zu steuern. Wenn der Hase mit der Möhre kollidiert (s. Block oben rechts), wird die App einen neuen Screen öffnen, auf dem die erste Frage, vom Schwierigkeitsgrad passend zum ersten Level, angezeigt wird. Berührt der Hase allerdings eine der Kugeln, wird der Screen mit dem Namen "VersuchsNochmal" geöffnet, auf dem die gleichen Worte stehen. Dort hat der Spieler dann durch verschiedene Buttons die Möglichkeit, entweder wieder von vorne zu starten oder zum Menü zurückzukehren. Die BLöcke links programmieren das Verhalten der Bälle. Wenn sie den Rand berühren, sollen sie zurückprallen.
+
+Diese Blocks wiederholen sich bei jedem Screen der weiteren Levels, wo der Hase zur Möhre gesteuert werden muss. Nur der Screen der geöffnet wird ist anders, da bei jedem Level eine andere Frage gestellt wird.
+Nur das Design ist je nach Level verschieden: Die Bälle werden größer und schneller, sodass das Spiel schwieriger wird. Außerdem werden die Fragen schwerer.
+
+BILD
+
+
+Die Fragen
+
+
+
 
 
 
