@@ -6,7 +6,7 @@ von Janina Gräfnitz und Carolin Oelschlägel, Klasse 12a
 * [Projektvorstellung](#Projektvorstellung)
   * [Die Intention des Spiels](#Intention)
 * [Das Spiel selber programmieren](#dssp)
-  * [MIT App Inventor](#Aufbau)
+  * [MIT App Inventor](#ai)
   * [Erste Schritte](#ErsteSchritte)
   * [Das Hasen-Spiel](#DasHasenSpiel)
 
@@ -20,9 +20,9 @@ Unser Projekt ist ein Spiel namens "Rabbio" und wurde  mit "MIT App Inventor" pr
 Mit dem Spiel "Rabbio" sollen Spaß beim Spielen und das Erweitern des Wissens in dem Fach Biologie miteinender vereint werden. Das Spiel soll somit zum Lernen motivieren. Da dieses mit dem Spiel verbunden ist, erscheint es für den Spieler als eine positive Erfahrung. Kognitive und geistige Fähigkeiten des Spielers werden miteinander vereint.
 Der Name "Rabbio" setzt sich aus den englischen Wörtern "rabbit" und "biology" zusammen. 
 
-## Das Spiel selber programmieren
+## Das Spiel selber programmieren <a name="dssp"></a>
 
-### MIT App Inventor
+### MIT App Inventor <a name="ai"></a>
 
 Um das Spiel selber zu programmieren zu können, sollte man sich zunächst mit dem Programm "MIT App Inventor" vertraut machen.
 MIT App Inventor ist ein seit 2010 veröffentliches Programm zum Programmieren in Blocksprache. 
