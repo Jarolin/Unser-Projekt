@@ -92,7 +92,9 @@ Nur das Design ist je nach Level verschieden: Die Bälle werden größer und sch
 BILD
 
 
-Die Fragen
+Die Fragen sind aus einem Textlabel, der die Frage anzeigt, und vier Buttons aufgebaut, die die Antwortmöglichkeiten darstellen. Wird die richtige Antwort gewählt, ändert sich ein weiteres Label unter den Buttons von "Wähle die richtige Antwort." zu entweder "Richtig" oder "Falsch".
+
+Dies wird durch die Blocks "When Button x clicked" und die verschiedenen 
 
 
 
