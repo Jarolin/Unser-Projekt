@@ -50,8 +50,7 @@ Der Name "Rabbio" setzt sich aus den englischen Wörtern "rabbit" und "biology" 
 ### MIT App Inventor <a name="ai"></a>
 
 
-
-
+![bsp MIT](Bilder.exe/MIT.png)
 
 
 
@@ -63,6 +62,10 @@ Danach kann man begonnene Prokjekte online speichern, sodass man jederzeit darau
 Das Programm funktioniert auf Englisch und 11 weiteren Sprachen, zu denen Deutsch nicht gehört. 
 
 MIT App Inventor teilt sich in zwei Ebenen auf, den Design Editor und den Block Editor. 
+
+
+![bsp DesignBl](Bilder.exe/DesignBl.png)
+
 
 In dem Design Editor kann man Hintergründe und ImageSprites erstellen. 
 Dazu kann man Bilder von seinem eigenen Computer oder aus dem Internet in das Prokekt hochladen. Besonders an MIT App Inventor ist, dass man mehrere verschiedene Screens designen kann. Dies eignet sich gerade für Spiele wie Rabbio sehr gut, da dieses aus verschiedenen Teilen (dem Hasenspiel und dem Quizteil) besteht, wofür ein komplett verschiedenes Design des Bildschirms nötig ist. 
