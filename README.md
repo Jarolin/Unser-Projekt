@@ -127,15 +127,26 @@ Tippt der Spieler mit dem Finger auf den Button "Spiel beenden", schließt sich 
 ## Das Hasen-Spiel <a name="DasHasenSpiel"></a>
 
 
-Nun kann man durch Klicken auf "Add Screen" den Screen für das erste Level erstellen. Bei dem Hasenspiel-Screen muss ebenfalls zunächst der Bildschirm designt werden. 
+Nun kann man durch Klicken auf "Add Screen" den Screen für das erste Level erstellen. 
+Bei dem Hasenspiel-Screen muss ebenfalls zunächst der Bildschirm designt werden. 
+
 Wichtig ist, dass man einen sogenannten "Canvas" in den Hintergrund ziehen muss. 
 Er füllt diesen komplett aus, nur auf dem Canvas können sich hinterher Bälle und ImageSprites bewegen. 
-In der rechten Spalte können nun Farbe und Form des Canvas gestaltet werden. Um ein Bild als Hintergrund des Canvas zu haben, muss man ein Bild aus dem Internet oder aus den Dateien des Computers hochladen. 
+In der rechten Spalte können nun Farbe und Form des Canvas gestaltet werden. 
+Um ein Bild als Hintergrund des Canvas zu haben, muss man ein Bild aus dem Internet oder aus den Dateien des Computers hochladen. 
 Dann kann in der entsprechenden Zeile "BackgroundImage" das Bild gewählt werden.
 
 ![bsp Hintergrund](Bilder.exe/Hintergrund.png)
 
-Danach werden alle Elemente, die beim Spiel auf diesem einen Screen vorhanden sein sollen, auf den Canvas gezogen. In unserem Fall sind das drei Bälle und zwei ImageSprites. Diese lassen sich in der linken Spalte unter "Drawing and Animation" finden. Sobald die Elemente auf dem Canvas bzw. dem Screen vorhanden sind, erscheinen diese gelistet in einer weiteren Spalte, die sich direkt rechts des Screens befindet. Klickt man dort auf zum Beispiel "ImageSprite1", kann man nun wieder in der Spalte ganz rechts die Einstellungen für dieses Element tätigen. Beim Erstellen der Möhre sucht man zuerst das Bild aus, dann die Größe und richtet dann die Position der Möhre aus, wo sie sich auf dem Screen befinden soll. Dazu kann man sie entweder zum gewünschten Ort hinziehen oder manuell die x-, y- und z-Werte dafür in der rechten Spalte eingeben. Nun kann man das gleiche mit dem zweiten ImageSprite machen und die drei Bälle programmieren: 
+Danach werden alle Elemente, die beim Spiel auf diesem einen Screen vorhanden sein sollen, auf den Canvas gezogen. 
+In unserem Fall sind das drei Bälle und zwei ImageSprites. 
+Diese lassen sich in der linken Spalte unter "Drawing and Animation" finden. 
+Sobald die Elemente auf dem Canvas bzw. dem Screen vorhanden sind, erscheinen diese gelistet in einer weiteren Spalte, die sich direkt rechts des Screens befindet. 
+
+Klickt man dort auf zum Beispiel "ImageSprite1", kann man nun wieder in der Spalte ganz rechts die Einstellungen für dieses Element tätigen. 
+
+Beim Erstellen der Möhre sucht man zuerst das Bild aus, dann die Größe und richtet dann die Position der Möhre aus, wo sie sich auf dem Screen befinden soll. Dazu kann man sie entweder zum gewünschten Ort hinziehen oder manuell die x-, y- und z-Koordinaten dafür in der rechten Spalte eingeben. 
+Nun kann man das Gleiche mit dem zweiten ImageSprite machen und die drei Bälle programmieren: 
 
 ![bsp screenshot3](Bilder.exe/Screenshot3.png)
 
