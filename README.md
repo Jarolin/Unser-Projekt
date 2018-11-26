@@ -9,6 +9,8 @@ von Janina Gräfnitz und Carolin Oelschlägel, Klasse 12a
   * [MIT App Inventor](#ai)
   * [Erste Schritte](#ErsteSchritte)
   * [Das Hasen-Spiel programmieren](#DasHasenSpiel)
+  * [Die Fragen](#Fragen)
+  * [weitere Screens](#weitere)
 
 ## Projektvorstellung
 
@@ -68,7 +70,8 @@ Dort werden die entsprechenden Blocks eingefügt, sodass sich beim Klicken des S
  
  
 
-### Das Hasen-Spiel <a name="DasHasenSpiel"></a>
+## Das Hasen-Spiel <a name="DasHasenSpiel"></a>
+
 
 Nun kann man durch klicken auf "Add Screen" den Screen für das erste Level erstellen. Bei dem Hasenspiel-Screen muss ebenfalls zunächst der Bildschirm designt werden. 
 Wichtig ist, dass man einen sogenannten "Canvas" in den Hintergrund ziehen muss. Er füllt diesen komplett aus, nur auf dem Canvas können sich hinterher Bälle und ImageSprites bewegen. In der rechten Spalte können nun Farbe und Form des Canvas gestaltet werden. Um ein Bild als Hintergrund des Canvas zu haben, muss man ein Bild aus dem Internet oder aus den Dateien des Computers hochladen. Dann kann in der entsprechenden Zeile "BackgroundImage" das Bild gewählt werden.
@@ -91,17 +94,24 @@ Die Bälle werden zudem größer und schneller, sodass das Spiel schwieriger wir
 
 
 
-![bsp scScreen3Frage1Design](Bilder.exe/scScreen3Frage1Design.png)
-
+## Die Fragen <a name="Fragen"></a>
 
 
 Die Fragen sind aus einem Textlabel, der die Frage anzeigt, und vier Buttons aufgebaut, die die Antwortmöglichkeiten darstellen. Wird die richtige Antwort gewählt, ändert sich ein weiteres Label unter den Buttons von "Wähle die richtige Antwort." zu entweder "Richtig" oder "Falsch".
 
 
+
+![bsp scScreen3Frage1Design](Bilder.exe/scScreen3Frage1Design.png)
+
+
+
+Dies wird durch die blocks "When Button x clicked" und die verschiedenen angehängten blocks (s. Bild unten) gesteuert. Dieser Aufbau wiederholt sich bei jedem Fragen-Screen. Nur sind die blocks an die richtigen und falschen Antwortmöglichkeiten angepasst, zum Beispiel wenn bei Frage 1 die zweite Antwort richtig ist, muss der block "When Button 2 click", "do set Lebel2 text to "Richtig" und "set Label2 BackgroundColor to (rotes Farbenfeld)" heißen.
+
+
  ![bsp scScreen3Frage1Blocks](Bilder.exe/scScreen3Frage1Blocks.png)
 
-Dies wird durch die blocks "When Button x clicked" und die verschiedenen angehängten blocks (s. Bild oben) gesteuert.Dieser Aufbau wiederholt sich bei jedem Fragen-Screen. Nur sind die blocks an die richtigen und falschen Antwortmöglichkeiten angepasst, zum Beispiel wenn bei Frage 1 die zweite Antwort richtig ist, muss der block "When Button 2 click", "do set Lebel2 text to "Richtig" und "set Label2 BackgroundColor to (rotes Farbenfeld)" heißen.
 
+## Weitere Screens <a name="weietere"></a>
 
 Außerdem müssen Screen erstellt werden, die das Spiel etwas abrunden. In diesem Fall gibt es den folgenden Screen für den Fall, wenn man beim Spielen die Bälle berührt oder wenn man die Frage falsch beantwortet. Er ist aus einem textlabel und zwei buttons aufgebaut, mit denen man entweder zum Menü (Screen1) oder von Level 1 wieder anfangen kann. Die Programmierung mit den blocks ist ähnlich wie bei den Fragen. Sie geben den Befehl "Wenn auf Button x geklickt wird, öffne einen neuen Screen namens ..." wieder. 
 
