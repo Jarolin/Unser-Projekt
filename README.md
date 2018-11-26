@@ -32,12 +32,27 @@ Man wird dann auf einen Screen weitergeleitet, auf dem man dei Möglichkeit hat 
 
 Es folgt ein Überblick der verschiedenen Screen-Arten unseres Spiels, welche später noch genauer erläutert werden.
 
+1. Der Startscreen
 
+![bsp Start](Bilder.exe/Start.png)
 
+2. Hasen-Spiel (hier: Level 1) (Level 2 und 3 ähnlich aufgebaut)
 
+![bsp Game](Bilder.exe/Game.png)
 
+3. Fragen (hier: Level 1) (Level 2 und 3 ähnlich aufgebaut)
 
+![bsp Frag](Bilder.exe/Frag.png)
 
+4. "VersuchsNochmal" - erscheint bei Versagen
+
+![bsp Schad](Bilder.exe/Schad.png)
+
+5. Endscreen
+
+![bsp END](Bilder.exe/END.png)
+
+Insgesamt verfügt unser Spiel über 9 verschiedene Screens.
 
 ## Die Intention des Spiels <a name="Intention"></a>
 
