@@ -2,6 +2,9 @@
 
 von Janina Gräfnitz und Carolin Oelschlägel, Klasse 12a
 
+![bsp Logo](Bilder.exe/Logo.png)
+
+
 ## Inhaltsverzeichnis
 * [Projektvorstellung](#Projektvorstellung)
   * [Die Intention des Spiels](#Intention)
