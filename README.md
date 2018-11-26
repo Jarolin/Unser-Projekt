@@ -14,17 +14,43 @@ von Janina Gräfnitz und Carolin Oelschlägel, Klasse 12a
 
 ## Projektvorstellung
 
-Unser Projekt ist ein Spiel namens "Rabbio" und wurde  mit "MIT App Inventor" programmiert. Das Grundprinzip dieses Spiels ist es, mit einem Hasen vertikal durch verschieden schnelle Kugeln hindurch zu steuern, um eine Möhre am oberen Bildschirmrand zu erreichen. Sobald der Hase die Möhre berührt, erscheint je nach Level eine unterschiedlich schwere Frage zum Fachbereich Biologie. Nur wenn man die Frage richtig beantwortet, gelangt man zum nächsten Level, bis man letztendlich alle drei Level durchgespielt hat und man damit gewonnen hat.
+Unser Projekt ist ein Spiel namens "Rabbio" und wurde  mit "MIT App Inventor" programmiert.
+Das Spiel besteht aus zwei Teilen, einem "Hasen-Spiel"-Teil und einem "Fragen"-Teil.
+Insgesamt gibt es drei verschiedene Levels. 
+Um ein Level zu bestehen, muss man sowohl den dazugehörigen "Hasen-Spiel"- Teil erfolgreich meistern, sowie die anschließende Frage korrekt beantworten. 
+Beide Teile werden mit zunehmendem Level schwieriger.
+
+Das Grundprinzip des Spiels ist es, mit einem Hasen vertikal durch (je nach Level) verschieden schnelle und große Kugeln hindurch zu steuern, um eine Möhre am oberen Bildschirmrand zu erreichen. 
+Sobald der Hase die Möhre berührt, erscheint (je nach Level) eine unterschiedlich schwere Frage zum Fachbereich Biologie. 
+Nur wenn man die Frage richtig beantwortet, gelangt man zum nächsten Level, bis man letztendlich alle drei Level durchgespielt hat.
+Ist das der Fall, gelangt man auf einen Endscreen, auf dem man die Möglichkeit hat das Spiel nochmal zu spielen oder zum Menü zurückzukehren.
+Beantwortet man eine Frage falsch oder wird man von einer der Kugeln getroffen, hat man man verloren. 
+Man wird dann auf einen Screen weitergeleitet, auf dem man dei Möglichkeit hat nochmal von Level 1 an zu starten oder zurück zum Menü zu kehren. 
+
+Es folgt ein Überblick der verschiedenen Screen-Arten unseres Spiels, welche später noch genauer erläutert werden.
+
+
+
+
+
+
 
 
 ## Die Intention des Spiels <a name="Intention"></a>
 
-Mit dem Spiel "Rabbio" sollen Spaß beim Spielen und das Erweitern des Wissens in dem Fach Biologie miteinender vereint werden. Das Spiel soll somit zum Lernen motivieren. Da dieses mit dem Spiel verbunden ist, erscheint es für den Spieler als eine positive Erfahrung. Kognitive und geistige Fähigkeiten des Spielers werden miteinander vereint.
+Mit dem Spiel "Rabbio" sollen der Spaß beim Spielen und das Erweitern des Wissens in dem Fach Biologie miteinender vereint werden. 
+Das Spiel soll somit zum Lernen motivieren. Da dieses mit dem Spiel verbunden ist, erscheint es für den Spieler als eine positive Erfahrung. Kognitive, motorische und geistige Fähigkeiten des Spielers werden dadurch miteinander vereint.
 Der Name "Rabbio" setzt sich aus den englischen Wörtern "rabbit" und "biology" zusammen. 
 
 ## Das Spiel selber programmieren <a name="dssp"></a>
 
 ### MIT App Inventor <a name="ai"></a>
+
+
+
+
+
+
 
 Um das Spiel selber zu programmieren zu können, sollte man sich zunächst mit dem Programm "MIT App Inventor" vertraut machen.
 MIT App Inventor ist ein seit 2010 veröffentliches Programm zum Programmieren in Blocksprache. 
@@ -52,7 +78,7 @@ Dann beginnt man mit dem ersten Screen, dieser wird erstellt. Da man die Screens
 Screen 1, welcher direkt zu Beginn erstellt wird, ist immer der Startscreen des Spiels, er öffnet sich direkt, wenn man die App auf dem Smartphone startet. 
 
 Deshalb empfiehlt sich für Screen 1 ein Label mit dem Spielnamen zu erstellen (hier: Rabbio oder auch einfacher "Startscreen"), außerdem einen passenden Hintergrund zu wählen (hier: die Spielfarbe grün), eine kurze Spielanleitung einzufügen und gegebenenfalls ein ansprechendes Bild (hier: von der Spielfigur, dem Hasen).
-Desweiteren musss ein Button per Drag and Drop eingefügt werden, der später zum Starten des Spiels dienen soll. 
+Des Weiteren musss ein Button per Drag and Drop eingefügt werden, der später zum Starten des Spiels dienen soll. 
 Dies alles geschieht in der Ebene "Design Editor".
 
 
@@ -64,7 +90,10 @@ Dies alles geschieht in der Ebene "Design Editor".
 
 
 Anschließend wechselt man in den "Block Editor" 
-Dort werden die entsprechenden Blocks eingefügt, sodass sich beim Klicken des Start-Buttons ein neuer Screen öffnet (das das erste Level des Hasenspiels). Tippt der Spieler mit dem Finger auf den Button "Spiel beenden", schließt sich die App. 
+Dort werden die entsprechenden Blocks per Drag und Drop eingefügt, sodass sich beim Klicken des Start-Buttons ein neuer Screen öffnet (das erste Level des Hasenspiels). Dies geschieht über die Verknüfung der Befehle 
+"when Button 1.Click -> do open another Screen ScreenName "Level1" " .
+Tippt der Spieler mit dem Finger auf den Button "Spiel beenden", schließt sich die App durch folgende Befehle:
+"when Button 2.Click -> do close application" .
 
  ![bsp screenshot2](Bilder.exe/Screenshot2.png)
  
