@@ -8,7 +8,7 @@ von Janina Gräfnitz und Carolin Oelschlägel, Klasse 12a
 * [Das Spiel selber programmieren](#dssp)
   * [MIT App Inventor](#ai)
   * [Erste Schritte](#ErsteSchritte)
-  * [Das Hasen-Spiel](#DasHasenSpiel)
+  * [Das Hasen-Spiel programmieren](#DasHasenSpiel)
 
 ## Projektvorstellung
 
