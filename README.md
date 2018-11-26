@@ -101,13 +101,15 @@ Die Fragen sind aus einem Textlabel, der die Frage anzeigt, und vier Buttons auf
 
  ![bsp scScreen3Frage1Blocks](Bilder.exe/scScreen3Frage1Blocks.png)
 
-Dies wird durch die Blocks "When Button x clicked" und die verschiedenen angehängten Blocks (s. Bild oben) gesteuert.Dieser Aufbau wiederholt sich bei jedem Fragen-Screen. Nur sind die Blocks an die richtigen und falschen Antwortmöglichkeiten angepasst, zum Beispiel wenn bei Frage 1 die zweite Antwort richtig ist, muss der Block "When Button 2 click", "do set Lebel2 text to "Richtig" und "set Label2 BackgroundColor to (rotes Farbenfeld)" heißen.
+Dies wird durch die blocks "When Button x clicked" und die verschiedenen angehängten blocks (s. Bild oben) gesteuert.Dieser Aufbau wiederholt sich bei jedem Fragen-Screen. Nur sind die blocks an die richtigen und falschen Antwortmöglichkeiten angepasst, zum Beispiel wenn bei Frage 1 die zweite Antwort richtig ist, muss der block "When Button 2 click", "do set Lebel2 text to "Richtig" und "set Label2 BackgroundColor to (rotes Farbenfeld)" heißen.
 
 
-Außerdem müssen Screen erstellt werden, die das Spiel etwas abrunden. In diesem Fall gibt es den folgenden Screen für den Fall, wenn man beim Spielen die Bälle berührt oder wenn man die Frage falsch beantwortet. Er ist aus einem textlabel und zwei Buttons aufgebaut, mit denen man entweder zum Menü (Screen1) oder von Level 1 wieder anfangen kann. Die Programmierung mit den blocks ist ähnlich wie bei den Fragen. Die Blocks geben den Befehl "Wenn auf Button x geklickt wird, öffne einen neuen Screen namens ..." wieder. 
+Außerdem müssen Screen erstellt werden, die das Spiel etwas abrunden. In diesem Fall gibt es den folgenden Screen für den Fall, wenn man beim Spielen die Bälle berührt oder wenn man die Frage falsch beantwortet. Er ist aus einem textlabel und zwei buttons aufgebaut, mit denen man entweder zum Menü (Screen1) oder von Level 1 wieder anfangen kann. Die Programmierung mit den blocks ist ähnlich wie bei den Fragen. Sie geben den Befehl "Wenn auf Button x geklickt wird, öffne einen neuen Screen namens ..." wieder. 
 
 
-Wenn man das Spiel gewonnen hat, erscheint dieser Screen. Er wird ähnlich programmiert und enthält die gleichen Möglichkeiten des Fortfahrens. 
+Wenn man das Spiel gewonnen hat, erscheint dieser Screen. Er wird ähnlich programmiert und enthält die gleichen Möglichkeiten des Fortfahrens:
+
+
 
 
 
