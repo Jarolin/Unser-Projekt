@@ -92,12 +92,16 @@ Nur das Design ist je nach Level verschieden: Die Bälle werden größer und sch
 BILD
 
 
+![bsp scScreen3Frage1Design](Bilder.exe/scScreen3Frage1Design.png)
+
+
+
 Die Fragen sind aus einem Textlabel, der die Frage anzeigt, und vier Buttons aufgebaut, die die Antwortmöglichkeiten darstellen. Wird die richtige Antwort gewählt, ändert sich ein weiteres Label unter den Buttons von "Wähle die richtige Antwort." zu entweder "Richtig" oder "Falsch".
 
 
  ![bsp scScreen3Frage1Blocks](Bilder.exe/scScreen3Frage1Blocks.png)
 
-Dies wird durch die Blocks "When Button x clicked" und die verschiedenen 
+Dies wird durch die Blocks "When Button x clicked" und die verschiedenen angehängten Blocks (s. Bild oben) gesteuert. 
 
 
 
