@@ -38,9 +38,9 @@ Dazu kann man Bilder von seinem eigenen Computer oder aus dem Internet in das Pr
 In die verschieden Screens kann man im Design Editor verschiedene Buttons und Labels mit Text hinzufügen.
 Desweiteren kann man dort Bälle erstellen, diese kommen auch in unserem Spiel vor. Der wesentliche Unterschied zwischen ImageSprites und Bällen ist der, dass die Bälle sehr simpel aufgebaut sind. An ihnen kann man lediglich die Geschwindigket, Größe u. Ä. ändern. Die ImageSprites können durch Bilddateien individuell gestaltet werden.
 
-In dem Block Editor kann man per Drag and Drop verschiedene Blocks auf eine Fläche ziehen. 
+In dem Block Editor kann man per Drag and Drop verschiedene Blocks von der linekn Spalte aus den verschiedenen Kategorien auf eine Fläche ziehen. 
 Diese kann man beliebig miteinander kombinieren und bei einigen Blocks selber bestimmte Dinge dazutragen. 
-Man kann verschiede Screens miteinander verknüpfen, die Fortbewegung der ImageSprites und die Bälle programmieren und entscheiden, was bei dem Berühren bestimmter anderer ImageSprites oder dem Antippen verschiedener Buttons passiert. 
+Man kann verschiedene Screens miteinander verknüpfen, die Fortbewegung der ImageSprites und die Bälle programmieren und entscheiden, was bei dem Berühren bestimmter anderer ImageSprites oder dem Antippen verschiedener Buttons passiert. 
 
 ### Erste Schritte <a name="ErsteSchritte"></a>
 
@@ -101,7 +101,13 @@ Die Fragen sind aus einem Textlabel, der die Frage anzeigt, und vier Buttons auf
 
  ![bsp scScreen3Frage1Blocks](Bilder.exe/scScreen3Frage1Blocks.png)
 
-Dies wird durch die Blocks "When Button x clicked" und die verschiedenen angehängten Blocks (s. Bild oben) gesteuert. 
+Dies wird durch die Blocks "When Button x clicked" und die verschiedenen angehängten Blocks (s. Bild oben) gesteuert.Dieser Aufbau wiederholt sich bei jedem Fragen-Screen. Nur sind die Blocks an die richtigen und falschen Antwortmöglichkeiten angepasst, zum Beispiel wenn bei Frage 1 die zweite Antwort richtig ist, muss der Block "When Button 2 click", "do set Lebel2 text to "Richtig" und "set Label2 BackgroundColor to (rotes Farbenfeld)" heißen.
+
+
+Außerdem müssen Screen erstellt werden, die das Spiel etwas abrunden. In diesem Fall gibt es den folgenden Screen für den Fall, wenn man beim Spielen die Bälle berührt oder wenn man die Frage falsch beantwortet. Er ist aus einem textlabel und zwei Buttons aufgebaut, mit denen man entweder zum Menü (Screen1) oder von Level 1 wieder anfangen kann. Die Programmierung mit den blocks ist ähnlich wie bei den Fragen. Die Blocks geben den Befehl "Wenn auf Button x geklickt wird, öffne einen neuen Screen namens ..." wieder. 
+
+
+Wenn man das Spiel gewonnen hat, erscheint dieser Screen. Er wird ähnlich programmiert und enthält die gleichen Möglichkeiten des Fortfahrens. 
 
 
 
