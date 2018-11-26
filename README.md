@@ -107,10 +107,13 @@ Dies wird durch die blocks "When Button x clicked" und die verschiedenen angehä
 Außerdem müssen Screen erstellt werden, die das Spiel etwas abrunden. In diesem Fall gibt es den folgenden Screen für den Fall, wenn man beim Spielen die Bälle berührt oder wenn man die Frage falsch beantwortet. Er ist aus einem textlabel und zwei buttons aufgebaut, mit denen man entweder zum Menü (Screen1) oder von Level 1 wieder anfangen kann. Die Programmierung mit den blocks ist ähnlich wie bei den Fragen. Sie geben den Befehl "Wenn auf Button x geklickt wird, öffne einen neuen Screen namens ..." wieder. 
 
 
+ ![bsp scEndscreenDesign](Bilder.exe/scEndscreenDesign.png)
+
 Wenn man das Spiel gewonnen hat, erscheint dieser Screen. Er wird ähnlich programmiert und enthält die gleichen Möglichkeiten des Fortfahrens:
 
 
 
+ ![bsp scVersuchsNochmalDesign](Bilder.exe/scVersuchsNochmalDesign.png)
 
 
 
