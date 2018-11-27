@@ -146,7 +146,10 @@ Sobald die Elemente auf dem Canvas bzw. dem Screen vorhanden sind, erscheinen di
 Klickt man dort auf zum Beispiel "ImageSprite1", kann man nun wieder in der Spalte ganz rechts die Einstellungen für dieses Element tätigen. 
 
 Beim Erstellen der Möhre sucht man zuerst das Bild aus, dann die Größe und richtet dann die Position der Möhre aus, wo sie sich auf dem Screen befinden soll. Dazu kann man sie entweder zum gewünschten Ort hinziehen oder manuell die x-, y- und z-Koordinaten dafür in der rechten Spalte eingeben. 
-Nun kann man das Gleiche mit dem zweiten ImageSprite machen und die drei Bälle programmieren: 
+Nun kann man das Gleiche mit dem zweiten ImageSprite machen und anschließend die drei Bälle programmieren.
+
+Bei den Bällen gibt man ebenfalls die Koordinaten vor, außerdem kann man rechts das Interval einstellen, in dem sie sich bewegen sollen.
+Man kann den Bällen im rechten Menü ebenfalls unterschiedliche Geschwindigkeiten geben und ihre Größe verändern, in dem man den Radius variiert.
 
 ![bsp screenshot3](Bilder.exe/Screenshot3.png)
 
@@ -157,17 +160,31 @@ Der Block "When Level1 initialize" gibt an, was passieren soll, wenn dieser Scre
 ![bsp scLevel1Blocks](Bilder.exe/scLevel1Blocks.png)
 
 
-Wird der Bildschirm (Canvas, siehe Block rechts unten) berührt, bekommt der Hase den Befehl, seine y-Position um 20 Einheiten vertikal nach oben zu verändern. Damit ist der Spieler also in der Lage, den Hasen durch die Kugeln zu steuern. Wenn der Hase mit der Möhre kollidiert (s. Block oben rechts), wird die App einen neuen Screen öffnen, auf dem die erste Frage, vom Schwierigkeitsgrad passend zum ersten Level, angezeigt wird. Berührt der Hase allerdings eine der Kugeln, wird der Screen mit dem Namen "VersuchsNochmal" geöffnet, auf dem die gleichen Worte stehen. Dort hat der Spieler dann durch verschiedene Buttons die Möglichkeit, entweder wieder von vorne zu starten oder zum Menü zurückzukehren. Die BLöcke links programmieren das Verhalten der Bälle. Wenn sie den Rand berühren, sollen sie zurückprallen.
+Wird der Bildschirm (Canvas, siehe Block rechts unten) berührt, bekommt der Hase den Befehl, seine y-Position um 20 Einheiten vertikal nach oben zu verändern. 
+Damit ist der Spieler also in der Lage, den Hasen durch die Kugeln zu steuern. 
 
-Diese Blocks wiederholen sich bei jedem Screen der weiteren Levels, wo der Hase zur Möhre gesteuert werden muss. Nur das Design des Screens, der geöffnet wird, ist anders, da bei jedem Level eine andere Frage gestellt wird.
-Die Bälle werden zudem größer und schneller, sodass das Spiel schwieriger wird. Außerdem werden die Fragen schwerer.
+Wenn der Hase mit der Möhre kollidiert (s. Block oben rechts), wird die App einen neuen Screen öffnen, auf dem die erste Frage, vom Schwierigkeitsgrad passend zum ersten Level, angezeigt wird. 
+
+Berührt der Hase allerdings eine der Kugeln, wird der Screen mit dem Namen "VersuchsNochmal" geöffnet, auf dem die gleichen Worte stehen.  
+
+Sehr wichtig ist der in die Blocks eingebundene Befehl "close Screen", wenn ein weiterer Screen geöffnet wird.
+Wird dieser Befehl nicht gegeben, läuft der "Hasen-Spiel"-Screen im Hintergrund weiter, was zu technischen Problemen führt und die Funktionalität des Spiels beeinträchtigt.
+
+Die Blöcke links programmieren das Verhalten der Bälle. Wenn sie den Rand berühren, sollen sie zurückprallen.
+
+Diese Blocks wiederholen sich bei den beiden Screen der weiteren zwei Levels, wo der Hase zur Möhre gesteuert werden muss. 
+Nur das Design des Screens, der beim Berühren der Möhre geöffnet wird, ist anders, da bei jedem Level eine andere Frage gestellt wird.
+
+Die Bälle werden zudem größer durch einen größeren Radius und schneller durch das Einstellen einer höheren Geschwindigkeit, sodass das Spiel schwieriger wird. 
 
 
 
 ## Die Fragen <a name="Fragen"></a>
 
 
-Die Fragen sind aus einem Textlabel, der die Frage anzeigt, und vier Buttons aufgebaut, die die Antwortmöglichkeiten darstellen. Wird die richtige Antwort gewählt, ändert sich ein weiteres Label unter den Buttons von "Wähle die richtige Antwort." zu entweder "Richtig" oder "Falsch".
+Die Fragen sind aus einem Textlabel, der die Frage anzeigt, und vier Buttons aufgebaut, die die Antwortmöglichkeiten darstellen. 
+Wird die richtige Antwort gewählt, ändert sich ein weiteres Label unter den Buttons von: "Wähle die richtige Antwort." zu entweder "Richtig" oder "Falsch". 
+Dies hängt davon ab welchen Button der Spieler gedrückt hat und ob dies die richtige oder falsche Antwort war.
 
 
 
@@ -175,7 +192,17 @@ Die Fragen sind aus einem Textlabel, der die Frage anzeigt, und vier Buttons auf
 
 
 
-Dies wird durch die blocks "When Button x clicked" und die verschiedenen angehängten blocks (s. Bild unten) gesteuert. Dieser Aufbau wiederholt sich bei jedem Fragen-Screen. Nur sind die blocks an die richtigen und falschen Antwortmöglichkeiten angepasst, zum Beispiel wenn bei Frage 1 die zweite Antwort richtig ist, muss der block "When Button 2 click", "do set Lebel2 text to "Richtig" und "set Label2 BackgroundColor to (rotes Farbenfeld)" heißen.
+Es wird durch die blocks "When Button x clicked" und die verschiedenen angehängten blocks (s. Bild unten) gesteuert. 
+Dieser Aufbau wiederholt sich bei jedem der drei Fragen-Screens. 
+
+Nur sind die Blocks an die richtigen und falschen Antwortmöglichkeiten angepasst. 
+Zum Beispiel wenn bei Frage 1 die zweite Antwort richtig ist, muss der Block "When Button 2 click", "do set Lebel2 text to "Richtig" und "set Label2 BackgroundColor to (rotes Farbenfeld)" heißen.
+
+Je nachdem welcher Button gedrückt wird, so unterscheidet sich die Weiterleitung auf einen nächsten Screen.
+Bei richtiger Antwort gelangt man zu einem neuen "Hasen-Spiel"- Level.
+Bei falscher Antwort wird man durch den Befehl "do open another Screen ScreenName "VersuchsNochmal"" zu diesem weitergeleitet.
+
+Wichtig ist erneut der Befehl "close Screen", welcher in die einzelnen Blocks mit eingebunden ist.
 
 
  ![bsp scScreen3Frage1Blocks](Bilder.exe/scScreen3Frage1Blocks.png)
@@ -183,18 +210,25 @@ Dies wird durch die blocks "When Button x clicked" und die verschiedenen angehä
 
 ## Weitere Screens <a name="weitere"></a>
 
-Außerdem müssen Screen erstellt werden, die das Spiel etwas abrunden. In diesem Fall gibt es den folgenden Screen für den Fall, wenn man beim Spielen die Bälle berührt oder wenn man die Frage falsch beantwortet. Er ist aus einem textlabel und zwei buttons aufgebaut, mit denen man entweder zum Menü (Screen1) oder von Level 1 wieder anfangen kann. Die Programmierung mit den blocks ist ähnlich wie bei den Fragen. Sie geben den Befehl "Wenn auf Button x geklickt wird, öffne einen neuen Screen namens ..." wieder. 
+Außerdem müssen weitere Screen erstellt werden, die das Spiel etwas abrunden. 
+In diesem Fall gibt es den folgenden "VersuchsNochmal" Screen für den Fall, dass man beim Spielen die Bälle berührt oder dass man die Frage falsch beantwortet. 
+
+Er ist aus einem Textlabel und zwei Buttons aufgebaut, mit denen man entweder zum Menü (Screen1) oder wieder zum "Hasen-Spiel"-Screen von Level 1 gelangt. 
+
+Die Programmierung mit den Blocks ist ähnlich wie bei den Fragen. Sie geben den Befehl "Wenn auf Button x geklickt wird, öffne einen neuen Screen namens ..." wieder. 
 
  ![bsp scVersuchsNochmalDesign](Bilder.exe/scVersuchsNochmalDesign.png)
 
 
-Wenn man das Spiel gewonnen hat, erscheint dieser Screen. Er wird ähnlich programmiert und enthält die gleichen Möglichkeiten des Fortfahrens:
+Wenn man das Spiel gewonnen hat, erscheint dieser Screen. Er wird ähnlich programmiert wie der "VersuchsNochmal"-Screen und enthält die gleichen Möglichkeiten des Fortfahrens:
 
 
  ![bsp scEndscreenDesign](Bilder.exe/scEndscreenDesign.png)
 
 
+Nun sollte es möglich sein, die Entstehung und den Aufabu des Spiels "Rabbio" nachzuvollziehen.
 
+Viel Erfolg beim selber Programmieren dieses Spiels. :)
 
 
 
