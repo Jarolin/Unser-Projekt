@@ -170,6 +170,9 @@ Berührt der Hase allerdings eine der Kugeln, wird der Screen mit dem Namen "Ver
 Sehr wichtig ist der in die Blocks eingebundene Befehl "close Screen", wenn ein weiterer Screen geöffnet wird.
 Wird dieser Befehl nicht gegeben, läuft der "Hasen-Spiel"-Screen im Hintergrund weiter, was zu technischen Problemen führt und die Funktionalität des Spiels beeinträchtigt.
 
+![bsp close](Bilder.exe/close.png)
+
+
 Die Blöcke links programmieren das Verhalten der Bälle. Wenn sie den Rand berühren, sollen sie zurückprallen.
 
 Diese Blocks wiederholen sich bei den beiden Screen der weiteren zwei Levels, wo der Hase zur Möhre gesteuert werden muss. 
@@ -177,6 +180,7 @@ Nur das Design des Screens, der beim Berühren der Möhre geöffnet wird, ist an
 
 Die Bälle werden zudem größer durch einen größeren Radius und schneller durch das Einstellen einer höheren Geschwindigkeit, sodass das Spiel schwieriger wird. 
 
+![bsp ballgr](Bilder.exe/ballgr.png)
 
 
 ## Die Fragen <a name="Fragen"></a>
@@ -215,9 +219,11 @@ In diesem Fall gibt es den folgenden "VersuchsNochmal" Screen für den Fall, das
 
 Er ist aus einem Textlabel und zwei Buttons aufgebaut, mit denen man entweder zum Menü (Screen1) oder wieder zum "Hasen-Spiel"-Screen von Level 1 gelangt. 
 
+ ![bsp scVersuchsNochmalDesign](Bilder.exe/scVersuchsNochmalDesign.png)
+ 
 Die Programmierung mit den Blocks ist ähnlich wie bei den Fragen. Sie geben den Befehl "Wenn auf Button x geklickt wird, öffne einen neuen Screen namens ..." wieder. 
 
- ![bsp scVersuchsNochmalDesign](Bilder.exe/scVersuchsNochmalDesign.png)
+![bsp Endb](Bilder.exe/Endb.png)
 
 
 Wenn man das Spiel gewonnen hat, erscheint dieser Screen. Er wird ähnlich programmiert wie der "VersuchsNochmal"-Screen und enthält die gleichen Möglichkeiten des Fortfahrens:
